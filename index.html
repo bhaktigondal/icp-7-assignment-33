@@ -11,11 +11,11 @@
 
 
     <script>
-        const students = ['saurav' , 'pranay' , 'sakshi']
+        const students = ['saurav', 'pranay', 'sakshi']
 
         console.log(students)
 
-        const fruits = ['mango' , 'orange' ,'pineapple' ,'apple']
+        const fruits = ['mango', 'orange', 'pineapple', 'apple']
         console.log(fruits[2])
 
         const student = [
@@ -23,7 +23,7 @@
             "vaishnavi,",
             "tejas"
         ]
-        
+
 
         //before push after push
         console.log(`before push: ${student}`)
@@ -33,12 +33,44 @@
 
 
         //shift unshift
-        const colors = ['red' , 'pink' ,'orange' ,'yellow']
+        const colors = ['red', 'pink', 'orange', 'yellow']
         console.log(colors)
         colors.unshift("white")
         console.log(colors)
         colors.shift("black")
         console.log(colors)
+
+
+
+        //WL   (index of)
+        const wl = ["nikita", "Bhakti", "Sakshi"];
+        console.log(wl);
+        wl.push("yash");
+        console.log(wl);
+
+        wl.shift()
+        console.log(wl)
+
+
+        //splice
+        const vegetables = ["tomato", "potato", "brinjal", "cucumber",];
+        console.log(vegetables);
+        students.splice(1, 2, "carrot", "onion");
+        console.log(vegetables);
+
+
+
+        //reverse
+        const names = ["anil", "Bhakti", "sunita", "arjun"];
+        names.reverse();
+        console.log(names);
+
+
+
+        //sort
+        const array = ["bhakti", "Sakshi", "akshada", "suraj"];
+        array.sort();
+        console.log("Ascending :" + array);
 
     </script>
 
